@@ -1,8 +1,8 @@
 # LegalAid India — Technical Design Document
 
 **Project:** LegalAid India — Free Legal Aid Eligibility Checker
-**Repository:** https://github.com/vishwajeetsah/legalaid-mp
-**Live application:** https://vishwajeetsah.github.io/legalaid-mp/
+**Repository:** https://github.com/vishwajeetsah/hscmybharat
+**Live application:** https://vishwajeetsah.github.io/hscmybharat/
 **Author:** Vishwajeet Sah
 **Last updated:** 27 October 2026
 
@@ -217,7 +217,7 @@ official LGD codes; see §8.
 
 | Target | Command | Output |
 |---|---|---|
-| GitHub Pages (**live**) | `GH_PAGES=true bun run build` | Static prerender under base `/legalaid-mp/`, published to the `gh-pages` branch |
+| GitHub Pages (**live**) | `GH_PAGES=true bun run build` | Static prerender under base `/hscmybharat/`, published to the `gh-pages` branch |
 | Cloudflare Workers (alternative) | `bun run build` | Nitro `cloudflare-module` SSR bundle |
 | Local development | `bun run dev` | Vite dev server on port 8080 |
 

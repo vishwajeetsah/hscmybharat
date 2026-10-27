@@ -1,6 +1,6 @@
 # AGENTS.md
 
-LegalAid MP — Section 12 (Legal Services Authorities Act, 1987) awareness site.
+LegalAid India — Section 12 (Legal Services Authorities Act, 1987) awareness site.
 TanStack Start (SSR) + React 19 + Tailwind CSS 4 + shadcn/ui. Bilingual (en/hi).
 
 ## Commands

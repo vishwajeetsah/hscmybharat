@@ -63,8 +63,8 @@ order:
 Node.js 20+ with npm, and Git.
 
 ```bash
-git clone https://github.com/vishwajeetsah/legalaid-mp.git
-cd legalaid-mp
+git clone https://github.com/vishwajeetsah/hscmybharat.git
+cd hscmybharat
 bun install          # or: npm install
 bun run dev          # local dev server at http://localhost:8080
 ```
@@ -78,8 +78,8 @@ bun run preview            # preview a production build locally
 ```
 
 The GitHub Pages build is what powers the live site at
-https://vishwajeetsah.github.io/legalaid-mp/ — it prerenders every route to
-static HTML under the `/legalaid-mp/` base path.
+https://vishwajeetsah.github.io/hscmybharat/ — it prerenders every route to
+static HTML under the `/hscmybharat/` base path.
 
 ## Environment variables
 
@@ -88,7 +88,7 @@ is required to run it. The only environment variables are build-time flags:
 
 | Variable | Required | Default | Purpose |
 |---|---|---|---|
-| `GH_PAGES` | No | unset | Set to `true` to build the static GitHub Pages variant (base path `/legalaid-mp/`, Nitro skipped). Leave unset for the Cloudflare Workers SSR build. |
+| `GH_PAGES` | No | unset | Set to `true` to build the static GitHub Pages variant (base path `/hscmybharat/`, Nitro skipped). Leave unset for the Cloudflare Workers SSR build. |
 | `VITE_ROUTER_BASEPATH` | No | `/` | Router base path. Set automatically by `vite.config.ts` from `GH_PAGES`; override only for other subpath hosting. |
 | `VITE_*` | No | — | Any `VITE_`-prefixed variables are exposed to the client via `import.meta.env` (see `vite.config.ts`). None are required by the app today. |
 
@@ -114,7 +114,7 @@ bun test    # or: bun run test
   [`docs/TECHNICAL_DESIGN.md`](docs/TECHNICAL_DESIGN.md)
 - **Sample data & test cases:**
   [`tests/sample-data/eligibility-cases.json`](tests/sample-data/eligibility-cases.json)
-- **Live application:** https://vishwajeetsah.github.io/legalaid-mp/
+- **Live application:** https://vishwajeetsah.github.io/hscmybharat/
 
 ## License
 
